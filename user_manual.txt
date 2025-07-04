@@ -1,0 +1,21 @@
+## User Manual
+
+Welcome to LNET
+
+This user manual provides guidance on the proper use of the LNET application.
+Before proceeding, please ensure that the installation process has been fully completed.
+
+If the application is ready to be used, carefully follow the steps outlined below to initialize 
+and operate the system effectively.
+
+1. Close all open LabVIEW files (verify both LabVIEW versions are closed).
+2. Launch LabVIEW 2022 manually.
+3. Open the OpenSPM Project located in the C module (not the D module).
+4. Run `menu.vi`.
+5. From within `menu.vi`, open both the LV Bridge and Z Scan modules.
+6. Finally, run the Python script to begin operation (`python main.py`).
+
+**Support:** If you encounter unexpected behavior or errors, please contact:
+
+- German Garcia Martinez: [german.garciamartinez@epfl.ch]
+- Osman Ornek: [osman.ornek@epfl.ch]
